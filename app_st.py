@@ -5,7 +5,7 @@ import sklearn
 
 import pickle 
 
-model_1 = pickle.load(open('ml_model.sav','rb'))
+model_1 = pickle.load(open('O_model.pkl','rb'))
 from PIL import Image 
 def run_this():
     st.title('welcome! Borrower :boy:')
