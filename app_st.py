@@ -81,10 +81,10 @@ timely paid''')
         occupation =6
     ######
 
-    borrow_amo=st.slider('How much ammount you are borrowing ?',0,4000)
+    borrow_amo=st.slider('How much ammount you are borrowing ?',0,6000)
 
     #####
-    monthly_inco=st.slider('your monthly income ?',0,4000)
+    monthly_inco=st.slider('your monthly income ?',0,6000)
 
     #####
     term =['12 month','36 month','60 month']
@@ -155,9 +155,9 @@ timely paid''')
 
    
 
-    borrow_Apr=st.slider('Borrower APR ?',0,6000)
+    borrow_Apr=st.slider('Borrower APR ?',0,10000)
 
-    borrow_dpi=st.slider('Dept to income ratio ?',0,6000)
+    borrow_dpi=st.slider('Dept to income ratio ?',0,10000)
 
     ######
     sub=st.button("submit")
