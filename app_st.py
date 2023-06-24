@@ -177,10 +177,18 @@ timely paid''')
 
         st.write('your rating out of 7:star: is   :',result)
         st.write('your category is : ',final_r)
-        if result>5:
-            st.write("I think you are Rich your chance of approval of loan is 100% ")
-        elif result>3:
-            st.write("I think you are middle class your chance of approval of loan is 70%")
+        if result==7:
+            st.write("I think you are so Rich your chance of approval of loan is 100% ")
+        if result==6:
+            st.write("I think you are Rich your chance of approval of loan is 90% ")
+        if result==5:
+            st.write("I think you are middle class your chance of approval of loan is 70% ")
+        if result==4:
+            st.write("I think you are middle class your chance of approval of loan is 60% ")
+        
+        if result==3:
+            st.write("I think you are middle class your chance of approval of loan is 60% ")
+        
         else:
             st.write("you may get loan but chance of getting loan is 30%")
 
