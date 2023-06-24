@@ -188,9 +188,11 @@ timely paid''')
         
         if result==3:
             st.write("I think you are middle class your chance of approval of loan is 60% ")
+
+        if result==2 or result==1 or result==0:
+            st.write("I think you are  poor your chance of approval of loan is 30% ")
         
-        else:
-            st.write("you may get loan but chance of getting loan is 30%")
+           
 
 
    
